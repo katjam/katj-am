@@ -1,0 +1,59 @@
+/*-----------------
+ Colours
+ ----------------*/
+$black: #272727;
+$yellow: #fed766;
+$blue: #009fb7;
+$grey: #696773;
+$white: #eff1f3;
+
+/* Testing autoprefixer */
+ 
+.autoprefixer {
+  display: flex;
+}
+ 
+/* Testing cssnext */
+ 
+.cssnext {
+  background: color(red alpha(-10%));
+}
+ 
+/* Testing precss */
+ 
+.precss {
+  @if 3 < 5 {
+    background: green;
+  }
+  @else {
+    background: blue;
+  }
+}
+
+/*---------------
+ BODY
+---------------*/
+body {
+  background: $grey;
+  font-family: Hack, monospace;
+  color: $white;
+  text-align: left;
+}
+
+/*---------------
+ HEADERS
+ --------------*/
+h1, h2, h3 {
+  color: $blue;
+}
+
+/*---------------
+ LINKS
+ --------------*/
+a {
+  color: $yellow;
+  &:hover {
+    color: $yellow;
+  }
+}
+
