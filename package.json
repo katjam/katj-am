@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/katjam/katj-am/issues"
   },
-  "homepage": "https://github.com/katjam/katj-am#readme"
+  "homepage": "https://github.com/katjam/katj-am#readme",
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  }
 }
